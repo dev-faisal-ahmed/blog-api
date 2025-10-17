@@ -24,7 +24,7 @@ npm install
 
 - Create .env file and add port (eg. 5000)
 
-```json
+```bash
 PORT=""
 ```
 
