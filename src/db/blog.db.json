@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Learning RUST",
+    "content": "Rust is a really powerful language, And I am planning to learn it",
+    "author": "Faisal Ahmed",
+    "createdAt": "2025-10-17T17:24:12.469Z"
+  },
+  {
+    "id": 2,
+    "title": "How to use your time efficiently",
+    "content": "Just try to avoid wasting your time",
+    "author": "Morshedul Islam munna",
+    "createdAt": "2025-10-17T17:24:55.359Z"
+  }
+]
