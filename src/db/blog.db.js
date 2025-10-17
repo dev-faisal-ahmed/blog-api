@@ -13,6 +13,12 @@ export class BlogDB {
     return post;
   }
 
+  async getPostById(id) {
+    const posts = await this.loadPosts();
+    const post = posts.find((p) => p.id === id);
+    return post;
+  }
+
   async getNextPostId() {
     const posts = await this.loadPosts();
     const nextPostId = posts.length ? Math.max(...posts.map((p) => p.id)) + 1 : 1;
